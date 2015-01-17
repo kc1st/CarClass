@@ -1,0 +1,70 @@
+# CarClass
+PAC Assignment 3.4.6 Requirements: 
+
+Assignment #3.4.6:
+
+Program: create car objects
+
+Summary: 1. Car class:  1) data field: carNum: String
+                                       color: String
+                                       ignition: boolean
+                                       position x, y: int
+                                       carNum: static ArrayList<String>
+                        2) constructor: Car()
+                        3) methods: assignColor(): void
+                                    getColor(): String
+                                    assignNum(): void
+                                    getNum(): String
+                                    assignPosition(): void
+                                    move(int, int): int
+                                    moveX(int): void
+                                    moveY(int): void
+                                    getX(): int
+                                    getY(): int
+                                    changeIgnition(): void
+                                    getIgnition(): boolean
+                                    toString(): String                                   
+         2. main(): 1) create a Car Array of 10 Car Objects
+                    2) keep prompting the user for next action and display car status
+                    3) actions: car choice
+                                change ignition
+                                change position: direction and distance
+                                quit the program
+         3. error message: 1) invalid choice;
+                           2) move when ignition is off;
+                           3) move beyond the boundaries;
+Cannot do: display more than one car without position conflict
+For example:
+
+Which car would you like to use next (1-10)?
+
+What would you like to do next (1 - change ignition; 2 - change position of car; 3 - quit this program)?
+
+What direction would you like to move the car (1 - horizontal; 2 - vertical)?
+
+How far (negative value to move left / up)?
+
+Car Stats:
+Color: Red
+Ignition: On
+Location: 5, 17
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+--------------------	
+----R---------------	(the R corresponds to the color of the car)
+--------------------	
+--------------------	
+--------------------	

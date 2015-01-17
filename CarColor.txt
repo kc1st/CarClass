@@ -1,0 +1,8 @@
+Red
+Orange
+Yellow
+Green
+White
+Black
+Gold
+Silver
